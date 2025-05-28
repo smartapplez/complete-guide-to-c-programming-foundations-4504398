@@ -1,9 +1,15 @@
-main program
- 
-initialization
+#include <stdio.h>
+#include <stdlib.h>
 
-initial message
+// main program
+int main() {
 
-main program loop
+  // initialization
 
-output results
+  // initial message
+
+  // main program loop
+
+  // output results
+  return 0;
+}

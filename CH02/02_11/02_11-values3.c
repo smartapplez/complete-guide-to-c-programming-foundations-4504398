@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main()
-{
-	int x,o;
+int main() {
+  int x, o;
 
-	/* output hexadecimal, base 16 values */
-	for(x=0x1 ; x<=0x10; x++)
-		printf("0x%X = %d\n",x,x);
-	/* output octal, base 8 values */
-	for(o=01 ; o<=010; o++)
-		printf("0%o = %d\n",o,o);
+  /* output hexadecimal, base 16 values */
+  /* Compiler identifies a hex by 0x##*/
+  for (x = 0x1; x <= 0x10; x++)
+    printf("0x%X = %d\n", x, x);
+  /* output octal, base 8 values */
+  for (o = 01; o <= 010; o++)
+    printf("0%o = %d\n", o, o);
 
-	return(0);
+  return (0);
 }

@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main()
-{
-	char string[] = "I'm literally a string.\n";
+int main() {
+  // Compiler automatically adds the \0 character
+  // You must account for this!
+  char string[] = "I'm literally a string.\n";
 
-	puts(string);
+  puts(string);
 }

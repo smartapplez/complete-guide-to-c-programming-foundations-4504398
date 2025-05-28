@@ -1,18 +1,17 @@
 #include <stdio.h>
 
-int main()
-{
-	typedef float radius;
+// Usually this is defined inside a header file like time.h
+typedef float radius;
 
-	radius a;
+int main() {
+  // typedef can also be declared inside the main function
 
-	a = 27.5;
+  radius a;
 
-	printf("A circle with radius %.2f has an area of  %.2f\n",
-			a,
-			a*a*3.1415926
-		  );
+  a = 27.5;
 
-	return(0);
+  printf("A circle with radius %.2f has an area of  %.2f\n", a,
+         a * a * 3.1415926);
+
+  return (0);
 }
-
